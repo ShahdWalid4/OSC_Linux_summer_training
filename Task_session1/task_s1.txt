@@ -1,0 +1,46 @@
+1-mkdir "shahd waleed"
+2-cd "shahd waleed"
+
+3-mkdir Documents
+4-cd Documents
+5-cat >{file1.txt,file2.txt.file3.txt}
+6-press ctrl+d
+7-ls
+
+8-cd ..
+9-touch .hidden_file
+10- ls -a
+
+11-nano ./Documents/file1.txt
+12-write short message : shahd waleed , doing task of session 1
+13-press ctrl+o to save data then enter then ctrl+x to exit from nano text editior
+14-cat ./Documents/file1.txt
+
+15-cd Documents
+
+16-mkdir -
+17-pwd , cd /home/kali/"shahd waleed"/Documents/-
+
+18-cd ../.. to be in main directory
+19-cp -R Documents My_Documents
+20-ls 
+21-ls My_Documents 
+step 19,20 to verify that Documents and all its contents are copied
+
+22-nano .hidden_file
+23-write content : any thing then press ctrl+o to save then enter then ctrl+x to exit
+24-cat .hidden_file to display content 
+
+25-cd Documents 
+26-mv file2.txt file3.txt ..
+27-cd ..
+28-ls 
+
+29-cd
+30-rm -r "shahd waleed"
+31-ls 
+
+
+
+
+
