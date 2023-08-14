@@ -1,0 +1,29 @@
+1-after downloading file on deskto , cd Desktop
+2-ls
+3-unzip Updated-Task-02.zip
+4-cd Updated-Task-02
+5-ls
+6-cat README.txt
+7-ls -a
+8-tar -xvf .level-1.tar
+9-cd .level-1
+10-ls
+11-cat README.txt
+12-file level-2
+13-tar -xzvf level-2
+14-cd level-2
+15-cat README.txt
+16-find . -name level-3
+17-cd ./gBT5u0vLT5
+18-file level-3
+19-mv level-3 level-3.bz2
+20-bunzip2 level-3.bz2
+21-file level-3
+22-tar -xvf level-3
+23-cd level-3
+24-cat README.txt
+25-ls -l
+26-cat X6lkChFksj
+27-find . -size 73c
+28-cat ./m7LRDpRTUJ/xVMvVoKNW5
+Congrats!! You have finished the Task Successfully , you can rest now :D.
