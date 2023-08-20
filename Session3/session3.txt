@@ -1,0 +1,29 @@
+@1:
+1-sudo useradd -m osc
+2-sudo passwd osc and type password then retype it 
+3-sudo groupadd osc-group
+4-usermod -aG osc-group osc
+5-sudo usermod -aG sudo osc
+6-su - osc then type password of osc 
+@2:
+1-mkdir permission-practice
+2-cd permission-practice
+3-touch public-file.txt private-file.txt executable-script.sh
+4-chmod 666 public-file.txt
+5-chmod 600 private-file.txt
+6-chmod 750 executable-script.sh
+@3:
+1-sudo chown kali:osc-group private-file.txt then type password of osc 
+@4:
+1-sleep 1000 &
+2-pgrep sleep to obtain pid to using it after kill 
+3-kill 1364
+4-vim then press ctrl+z
+5-pkill -9 vim 
+6-pgrep vim
+7-pgrep sleep 
+6 & 7 to ensure that vim and sleep are killed by there are no information about them 
+@5:
+1-sudo apt update 
+2-sudo apt install neofetch
+3-sudo apt remove neofetch
